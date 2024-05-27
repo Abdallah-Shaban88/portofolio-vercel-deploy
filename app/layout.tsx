@@ -21,7 +21,10 @@ export const metadata: Metadata = {
    },
    formatDetection: {telephone: true},
    robots: {index: true, follow: true},
-   referrer: 'origin'
+   referrer: 'origin',
+  verification: {
+    google: 'pX1I5YnTn2oW9La3K0exIwQ9vhs1ND_13OYq4vSyvXM'
+   }
 };
 
 export default function RootLayout({
