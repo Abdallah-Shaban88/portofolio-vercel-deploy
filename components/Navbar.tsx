@@ -20,7 +20,7 @@ const {isDrawerOpen, toggleDrawer} = useIsDrawerOpen()
 
  
   return (
-    <header className="w-full p-5 fixed z-50 flex flex-row items-center justify-center bg-gray-700 text-white">
+    <header className="w-full p-5 z-50 flex flex-row items-center justify-center bg-gray-700 text-white">
       <h2 className="ml-auto text-2xl text-orange-700">معلم سراميك في الرياض</h2>
 
       <nav className="sm:hidden relative flex flex-col my-4">
