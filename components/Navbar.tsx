@@ -18,23 +18,21 @@ const {isDrawerOpen, toggleDrawer} = useIsDrawerOpen()
 //     setIsDrawerOpen(!isDrawerOpen);
 //   };
 
-  useEffect(() => {
-    // window.addEventListener('click', handleDrawerToggle)
-  },[])
+ 
   return (
-    <div className="w-full p-5 sticky flex flex-row items-center justify-center bg-gray-700 text-white">
-      <h2 className="ml-auto text-2xl">معلم سراميك في الرياض</h2>
+    <header className="w-full p-5 fixed z-50 flex flex-row items-center justify-center bg-gray-700 text-white">
+      <h2 className="ml-auto text-2xl text-orange-700">معلم سراميك في الرياض</h2>
 
-      <div className="sm:hidden relative flex flex-col my-4">
+      <nav className="sm:hidden relative flex flex-col my-4">
         <MobileMenuButton onClick={toggleDrawer}/>
         {/* Logo, Mobile Menu Button, Mobile Drawer */}
         <div className={`p-6 fixed inset-0 z-10 bg-slate-700 ${ !isDrawerOpen ? 'hidden':'flex'} flex-col justify-around`}>
         <IoMdCloseCircle onClick={toggleDrawer} size={30}/>
        {children}
         </div>
-      </div>
+      </nav>
 
-      <div className="hidden relative py-6 sm:flex  justify-center">
+      <div className="hidden relative py-2 sm:flex  justify-center">
         {children}
         {/* <div className="bg-gray-700 text-white gap-4">
           <MdLocalPhone size={22} />
@@ -42,7 +40,7 @@ const {isDrawerOpen, toggleDrawer} = useIsDrawerOpen()
           <FaLocationArrow />
         </div> */}
       </div>
-    </div>
+    </header>
   );
 };
 

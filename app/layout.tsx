@@ -17,23 +17,25 @@ export const metadata: Metadata = {
   phoneNumbers:'+966533108772',
   siteName: "معلم سيراميك ورخام في الرياض",
   tags: ["ارضيات سيراميك","ارضيات رخام","تركيب رخام","تركيب سيراميك","فني تركيب سيراميك","بلاط","رخام",'سيراميك',"معلم سيراميك بالرياض","معلم رخام بالرياض","فني سيراميك و رخام","الرياض","رخام و سيراميك", '+966533108772', '966533108772'],
-  
+   
    },
    formatDetection: {telephone: true},
    robots: {index: true, follow: true},
    referrer: 'origin',
-  verification: {
-    google: 'pX1I5YnTn2oW9La3K0exIwQ9vhs1ND_13OYq4vSyvXM'
+   verification: {
+    google: 'pX1I5YnTn2oW9La3K0exIwQ9vhs1ND_13OYq4vSyvXM',
+    
    }
 };
-
+/**<meta name="google-site-verification" 
+ * content="pX1I5YnTn2oW9La3K0exIwQ9vhs1ND_13OYq4vSyvXM" /> */
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ar" dir="rtl">
+    <html lang="ar" dir="rtl" className='scroll-smooth' style={{scrollBehavior:'smooth'}}>
       <body className={arima.className}>
       <SpeedInsights/>
       <Analytics/>
