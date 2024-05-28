@@ -79,41 +79,56 @@ export default function Home() {
       <Nav links={links} activeSection={activeSection} />
     </Navbar>  
     <main className='overflow-x-hidden'>
-    <section id="home" className="w-screen h-screen bg-panner bg-no-repeat bg-cover bg-fixed flex flex-col justify-around items-center bg-blend-darken bg-black/40 pt-9">
+    <section id="home" className="w-screen mb-32 h-screen bg-panner bg-no-repeat bg-cover bg-fixed flex flex-col justify-around items-center bg-blend-darken bg-black/40 pt-9">
       <ShowDivOpacity>
-      <div className='w-[70%] sm:w-[80%]  self-center'>
-      <h1 className='xl:text-8xl lg:text-7xl md:text-6xl sm:text-5xl text-center h-[100%]  text-white font-extrabold shadow-md' style={{lineHeight: 2}}>خبراء في جميع تركيبات انواع <br/> السيراميك و الرخام </h1>
+      <div className='w-[70%] sm:w-[80%] sm:mt-5 self-center'>
+      <h1 className='xl:text-8xl lg:text-7xl md:text-6xl text-4xl text-center h-[100%]  text-white font-extrabold shadow-md' style={{lineHeight: 2}}>خبراء في جميع تركيبات انواع <br/> السيراميك و الرخام </h1>
       </div>
       </ShowDivOpacity>
       <RevalCard className='' direction={-50}><button className='border-2 border-solid border-orange-700 bg-transparent outline-none m-auto block px-16 py-8 mt-8 text-orange-700 rounded-2xl text-3xl font-medium'>اتصل الان</button></RevalCard>
     </section>
-    <section id="aboutUs" className="w-screen h-screen flex sm:flex-row flex-col sm:justify-stretch sm:items-center lg:px-32 sm:py-32">
-     <RevalCard className="card w-[50%] h-full" direction={50}>
-      <p className='lg:text-4xl xl:text-5xl md:text-3xl sm:text-2xl text-black flex-1 px-16 ' style={{lineHeight: '4rem'}}>معلم سيراميك خبره 10 سنوات في المقاولات العامه بفضل الله افضل شغل واحسن جوده. فريق متخصص بترميم وتشطيب المنازل والفلل والقصور من أعمال تركيب السيراميك والرخام 
+    <section id="aboutUs" className="w-screen mb-32 h-screen flex sm:flex-row
+    flex-col-reverse sm:justify-stretch sm:items-center lg:px-32 sm:py-32">
+     <RevalCard className="card md:w-[50%] md:h-full" direction={50}>
+      <p className='lg:text-4xl xl:text-5xl md:text-3xl sm:text-2xl text-black
+      flex-1 px-16 text-center' style={{lineHeight: '4rem'}}>معلم سيراميك خبره 10 سنوات في
+      المقاولات العامه بفضل الله افضل شغل واحسن جوده. فريق متخصص بترميم وتشطيب
+      المنازل والفلل والقصور من أعمال تركيب السيراميك والرخام 
      <mark> +966533108772 </mark>
 </p>
 </RevalCard>
-<RevalCard className="card w-[50%] h-full" direction={-50}>
+<RevalCard className="card md:w-[50%] h-full" direction={-50}>
 <DivTransitionOnScroll>
 <div className='flex-1 bg-image1 w-full h-[100%] bg-cover rounded-lg ' >
 </div>
 </DivTransitionOnScroll>
 </RevalCard>
     </section>
-    <section id="services" className="w-screen h-screen  flex flex-col justify-around">
-      <h3 className='relative text-center text-5xl font-bold self-center after:content-[" "] after:w-full after:h-[5px] after:bg-black after:absolute after:bottom-0 after:left-0'>الخدمات</h3>
+    <section id="services" className="w-screen mb-32 md:h-screen  flex flex-col justify-around">
+      <h3 className='relative text-center text-5xl font-bold self-center
+      after:content-[" "] after:w-full after:h-[5px] after:bg-black
+      after:absolute after:bottom-0 after:left-0 text-black mb-8'>الخدمات</h3>
    
-    <div className='flex flex-wrap items-center justify-around'>
+    <div className='flex flex-col justify-between h-max items-center'>
 
-    {['','','',''].map((img, i) =><div key={i} className='relative after:content-[" "] after:w-full after:h-full after:bg-black/0 after:absolute after:inset-0 after:z-10 hover:after:bg-black/65 hover:cursor-pointer'> <Image  style={{   }} src='/image2.jfif' alt='' width={350} height={350} /></div>)}
+    {['','','',''].map((img, i) =><div key={i} className='relative
+    after:content-[" "] after:w-full after:h-full after:bg-black/0
+    after:absolute after:inset-0 after:z-10 hover:after:bg-black/65
+  after:rounded-xl  hover:cursor-pointer w-[300px] mb-8'> <Image  className='rounded-xl' src='/image2.jfif' alt=''
+    width={300} height={300} /></div>)}
     </div>
     </section>
-    <section id="contactUs" className="w-screen h-screen flex flex-col justify-around ">
-    <h3 className='relative text-center text-5xl font-bold self-center after:content-[" "] after:w-full after:h-[5px] after:bg-black after:absolute after:bottom-0 after:left-0'>الاتصال</h3>
+    
+    
+    <section id="contactUs" className="w-screen mb-20 md:h-screen flex flex-col justify-around ">
+    <h3 className='relative text-center text-5xl font-bold self-center
+    after:content-[" "] after:w-full after:h-[5px] after:bg-black after:absolute
+    after:bottom-0 after:left-0 text-black mb-8'>الاتصال</h3>
     <div className='flex flex-col-reverse md:flex-row justify-around md:h-[65%] w-full h-full items-center'>
-      <div className='flex flex-col justify-around items-stretch md:w-[50%] w-full px-36 '>
+      <div className='flex flex-col justify-around items-stretch md:w-[50%]
+      w-full md:px-36 '>
      { ["الاسم","الهاتف","البريد الاالكتروني"].map((input, index) => <input className='p-4 outline-none border-gray-800 border-solid border-b-2' placeholder={input}/>)}
-     <textarea className='p-4 outline-none border-gray-800 border-solid border-b-2' cols={50} rows={10}/>
+     <textarea placeholder="ملاحظات" className='p-4 outline-none border-gray-800 border-solid border-b-2' cols={50} rows={10}/>
      <button className='mt-4 p-4 bg-gray-800 w-full text-white'>اتصل بنا </button>
     </div>
     <div className=' bg-image1 md:w-full md:h-[100%] bg-cover rounded-lg w-[350px] h-[350px]' >

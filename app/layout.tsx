@@ -41,6 +41,9 @@ export default function RootLayout({
       <Analytics/>
         {children}
         </body>
+        <footer className='w-full p-5 text-center bg-gray-700 text-white'>
+        <span>all copyright ©️ are received</span>
+        </footer>
     </html>
   );
 }
