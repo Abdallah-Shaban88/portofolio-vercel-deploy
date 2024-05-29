@@ -109,7 +109,7 @@ export default function Home() {
       after:content-[" "] after:w-full after:h-[5px] after:bg-black
       after:absolute after:bottom-0 after:left-0 text-black mb-8'>الخدمات</h3>
    
-    <div className='flex flex-col justify-between h-max items-center'>
+    <div className='flex flex-col md:flex-row md:flex-wrap  md:justify-around h-max items-center '>
 
     {['','','',''].map((img, i) =><div key={i} className='relative
     after:content-[" "] after:w-full after:h-full after:bg-black/0
