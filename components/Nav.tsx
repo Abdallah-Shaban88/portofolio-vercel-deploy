@@ -11,7 +11,7 @@ function Nav({links, activeSection} : Links) {
   return (
     
         links.map((link, index) => (
-          <a key={index} href={`#${link.link}`} onClick={toggleDrawer}>  <span  className={`w-full inline-block px-5 font-bold text-center cursor-pointer relative pb-3 ${activeSection == link.link && "text-orange-500 nav"}`}>{link.title}</span></a>
+          <a key={index} href={`#${link.link}`} onClick={toggleDrawer}>  <span  className={`w-full inline-block px-5 font-bold text-center cursor-pointer relative pb-3 ${activeSection == link.link && "text-amber-400 nav"}`}>{link.title}</span></a>
         ))
     )
 }
