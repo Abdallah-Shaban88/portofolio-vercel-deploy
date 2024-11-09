@@ -90,7 +90,7 @@ export default function Home() {
       <h1 className='xl:text-8xl lg:text-7xl md:text-6xl text-4xl text-center h-[100%]  text-white font-extrabold shadow-md' style={{lineHeight: 2}}>خبراء في جميع تركيبات انواع <br/> السيراميك و الرخام و البورسلين</h1>
       </div>
       </ShowDivOpacity>
-      <RevalCard className='' direction={-50}><a href="tel:+966533108772"
+      <RevalCard className='' direction={-50}><a href="tel:+966570250049 "
       className='border-2 w-full border-solid border-orange-700 bg-transparent
       outline-none m-auto block
       px-16 py-8 mt-8 text-orange-700 rounded-2xl text-3xl font-medium'>اتصل
@@ -103,7 +103,7 @@ export default function Home() {
       flex-1 px-16 text-center' style={{lineHeight: '4rem'}}>معلم سيراميك خبره 10 سنوات في
       المقاولات العامه بفضل الله افضل شغل واحسن جوده. فريق متخصص بترميم وتشطيب
       المنازل والفلل والقصور من أعمال تركيب السيراميك والرخام 
-     <mark> +966533108772 </mark>
+     <mark> +966570250049 </mark>
 </p> */}
   <p className='lg:text-xl mt-4 md:mt-0 p-4 md:p-0 lg:px-10 lg:leading-[4rem] text-black
   text-justify' style={{ letterSpacing: 1}}>
@@ -111,7 +111,7 @@ export default function Home() {
     هل تبحث عن <strong>ملعم سيراميك بالرياض </strong> بارع ومتخصص في عمله ، اذا انت في المكان الصيحيح، بخبرة اكثر من 10 سنوات في مجال <strong>تركيب السيراميك</strong> و <strong>تركيب الرخام </strong> و <strong>تركيب البورسلين بالرياض</strong> نستطيع ان نضمن جودة في العمل .. دقة في التسليم .. امانة في التعامل وهذه اهم الاشياء التي تنال رضا العميل و تكسب وده؛ حيث ان لدينا نخبة من افضل <strong>معلم سيراميك  في الرياض</strong> ويوجد لدينا <strong>امهر فنيين تركيب رخام وبلاط</strong> كذلك يوجد لدينا <strong>معلم تركيب بورسلين</strong> باعلي جودة واسعار تناسب الجميع.
     نقدم جميع خدمات تركيب البلاط و السيراميك و الخلع بالاعتماد علي احدث الاجهزة والتفنيات التي تزيد من سرعة العمل ، وتجنب حدوث الاخطاء الشائعة او التلفيات الغير متوقعة ، تواصل معنا الان من جميع انحاء الرياض نصلك حيث ما كنت.
   </p> 
-    <mark dir='ltr' className='block mt-16 mx-auto text-center text-3xl p-2'> 0533108772 </mark>
+    <mark dir='ltr' className='block mt-16 mx-auto text-center text-3xl p-2'> 0570250049 </mark>
 </RevalCard>
 <RevalCard className="card md:w-[75%] lg:w-[50%] h-full " direction={-50}>
 <DivTransitionOnScroll>
