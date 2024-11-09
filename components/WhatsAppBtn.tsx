@@ -12,7 +12,7 @@ const WhatsAppBtn = () => {
        left: '5%',
        zIndex: 10
         }}>
-            <a href='https://wa.me/+966533108772' >
+            <a href='https://wa.me/+966570250049' >
         <FaWhatsappSquare size={80} color='green'/>
             </a>
             </div>
