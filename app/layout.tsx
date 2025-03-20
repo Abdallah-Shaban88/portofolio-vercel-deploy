@@ -40,6 +40,20 @@ export default function RootLayout({
   return (
     <html lang="ar" dir="rtl" className='scroll-smooth'
     style={{scrollBehavior:'smooth', position: 'relative'}}>
+      <head>
+              <meta name="google-adsense-account" content="ca-pub-3133686138399582" />
+              <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+              <script
+                dangerouslySetInnerHTML={{
+                  __html: `
+                    (adsbygoogle = window.adsbygoogle || []).push({
+                      google_ad_client: "ca-pub-3133686138399582",
+                      enable_page_level_ads: true
+                    });
+                  `,
+                }}
+              />
+            </head>
       <body className={arima.className}>
       <SpeedInsights/>
       <Analytics/>
