@@ -53,6 +53,8 @@ export default function RootLayout({
                   `,
                 }}
               />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3133686138399582"
+     crossorigin="anonymous"></script>
             </head>
       <body className={arima.className}>
       <SpeedInsights/>
