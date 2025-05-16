@@ -165,7 +165,7 @@ export default function Home() {
         </ul>
       },
       {
-      title: '/img3.jpg',
+      title: 'بلاط',
         img: '/img3.jpg',
         content: <ul className='flex flex-col justify-around items-stretch
         h-full mt-4 text-right text-xl'>
