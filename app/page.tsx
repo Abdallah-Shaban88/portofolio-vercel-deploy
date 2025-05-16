@@ -128,7 +128,7 @@ export default function Home() {
     {[
       {
       title: 'سيراميك',
-        img: '/image2.jfif',
+        img: '/img2.jpg',
         content: <ul className='flex flex-col justify-around items-stretch
         h-full mt-4 text-right text-xl'>
         <li><h4>تركيب سيراميك باركيه</h4></li>
@@ -141,7 +141,7 @@ export default function Home() {
       },
       {
       title: 'رخام',
-        img: '/image2.jfif',
+        img: '/image3.jpg',
         content: <ul className='flex flex-col justify-around items-stretch
         h-full mt-4 text-right text-xl'>
         <li><h4>تركيب رخام</h4></li>
@@ -156,7 +156,7 @@ export default function Home() {
       },
       {
       title: 'بورسلين',
-        img: '/img2.jpg',
+        img: '/image4.jpg',
         content: <ul className='flex flex-col justify-around items-stretch
         h-full mt-4 text-right text-xl'>
         <li><h4>تركيب بورسلين بجميع انواعه</h4></li>
@@ -165,7 +165,7 @@ export default function Home() {
         </ul>
       },
       {
-      title: 'بلاط',
+      title: '/img3.jpg',
         img: '/img3.jpg',
         content: <ul className='flex flex-col justify-around items-stretch
         h-full mt-4 text-right text-xl'>
